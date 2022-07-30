@@ -82,7 +82,7 @@ const Timer = _ref => {
   (0, _react.useEffect)(() => {
     setDisplay(convertTimeToText());
   }, [time]);
-  return /*#__PURE__*/React.createElement("div", null, display);
+  return _react.createElement("div", null, display);
 };
 
 var _default = Timer;
