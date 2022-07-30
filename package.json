@@ -1,0 +1,35 @@
+{
+	"name": "@ariadng/react-timer",
+	"version": "0.1.0",
+	"description": "A simple timer component for ReactJS.",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ariadng/react-timer.git"
+	},
+	"keywords": [
+		"timer",
+		"react",
+		"reactjs",
+		"react-component"
+	],
+	"author": "Aria Dhanang",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ariadng/react-timer/issues"
+	},
+	"homepage": "https://github.com/ariadng/react-timer#readme",
+	"devDependencies": {
+		"@babel/cli": "^7.18.9",
+		"@babel/core": "^7.18.9",
+		"@babel/preset-env": "^7.18.9",
+		"@babel/preset-react": "^7.18.6"
+	},
+	"dependencies": {
+		"@babel/polyfill": "^7.12.1"
+	}
+}
