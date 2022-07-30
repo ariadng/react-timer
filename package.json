@@ -1,6 +1,6 @@
 {
 	"name": "@ariadng/react-timer",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "A simple timer component for ReactJS.",
 	"main": "dist/index.js",
 	"scripts": {
